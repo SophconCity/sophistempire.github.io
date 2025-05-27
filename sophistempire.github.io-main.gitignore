@@ -1,0 +1,43 @@
+# Operating System Files
+.DS_Store          # macOS specific desktop services store
+Thumbs.db          # Windows specific thumbnail cache
+ehthumbs.db        # Windows specific thumbnail cache
+Desktop.ini        # Windows specific desktop settings
+
+# Editor/IDE Specific Files
+# Visual Studio Code
+.vscode/           # VS Code settings and extensions (often specific to developer's setup)
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# WebStorm / IntelliJ IDEA
+.idea/
+
+# Other common editor files
+*.bak              # Backup files
+*.swp              # Vim swap files
+*~                 # Emacs backup files
+
+# Dependencies / Build Output
+# If you ever use Node.js (for Gulp, Webpack, SASS compilation, etc.)
+node_modules/      # Directory where npm/yarn installs project dependencies
+
+# Generated files / Build directories
+/dist/             # Common directory for compiled/minified production assets
+/build/            # Another common directory for build output
+
+# Temporary files / Logs
+*.log
+*.tmp
+*.temp
+/log/
+/tmp/
+
+# Sensitive / Environment Variables
+.env               # Common for environment variables (e.g., API keys, database credentials)
+.env.* # Any files starting with .env. (e.g., .env.local, .env.development)
