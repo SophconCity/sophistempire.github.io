@@ -80,7 +80,7 @@ a:hover {
 
 .logo img {
     height: auto; /* Maintain aspect ratio */
-    max-height: 100px; /* Increased logo height to 100px */
+    max-height: 200px; /* Increased max height to 200px to better fit your image dimensions */
     display: block; /* Remove any extra spacing below the image */
 }
 
