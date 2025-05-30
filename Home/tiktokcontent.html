@@ -6,16 +6,28 @@
     <title>TikTok Content - SOPHIST EMPIRE</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        .content-section {
+            display: grid; /* Enable grid layout for the content section */
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Similar to portfolio grid */
+            gap: 30px;
+            margin-top: 20px;
+        }
         .tiktok-link-container {
-            margin-bottom: 30px;
             text-align: center;
         }
         .tiktok-link-container img {
             max-width: 100%;
-            height: 200px; /* Set the height to match portfolio thumbnails */
-            object-fit: cover; /* Maintain aspect ratio and cover the container */
+            height: 400px; /* Exactly two times the updated thumbnail height */
+            object-fit: cover;
             margin-bottom: 10px;
             border: 1px solid #ccc;
+        }
+        .tiktok-link-container h3 {
+            margin-top: 0; /* Adjust heading spacing */
+        }
+        .tiktok-link-back {
+            text-align: center; /* Center the link back to TikTok page */
+            margin-top: 30px;
         }
     </style>
 </head>
@@ -36,8 +48,6 @@
 
     <div class="container">
         <section class="content-section">
-            <h2>Featured TikTok Content</h2>
-
             <div class="tiktok-link-container">
                 <h3>Photo Post 1</h3>
                 <a href="https://www.tiktok.com/@unstoppableyou_official/photo/7454126549973945605?is_from_webapp=1&sender_device=mobile&sender_web_id=7510002507851777541" target="_blank">
