@@ -60,7 +60,7 @@ a:hover {
 .main-header {
     background: #333;
     color: #fff;
-    padding: 15px 0;
+    padding: 10px 0; /* Changed from 15px 0 */
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -80,7 +80,7 @@ a:hover {
 
 .logo img {
     height: auto; /* Maintain aspect ratio */
-    max-height: 200px; /* Increased max height to 200px to better fit your image dimensions */
+    max-height: 80px; /* Reduced from 100px - adjust as needed */
     display: block; /* Remove any extra spacing below the image */
 }
 
@@ -299,7 +299,7 @@ a:hover {
     }
 
     .main-nav ul {
-        margin-top: 10px;
+        margin-top: 5px; /* Reduced from 10px */
         flex-wrap: wrap;
         justify-content: center;
     }
