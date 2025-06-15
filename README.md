@@ -45,8 +45,11 @@ Sophist Empire is led by Maruf, a passionate and versatile digital professional 
 The project follows a straightforward and organized directory structure:
 SophistEmpire.github.io/
 ├── index.html          # Main HTML file for the website
+
 ├── style.css           # CSS file for styling
+
 └── images/             # Directory for all image assets
+
 ├── professional-photo.jpg
 ├── hero-background.jpg
 ├── blog-series-thumbnail.jpg
