@@ -16,7 +16,7 @@ This repository hosts the official portfolio website for **Sophist Empire**, sho
 ## Live Website
 
 You can view the live version of this website hosted on GitHub Pages here:
-**[https://SophistEmpire.github.io/](https://SophistEmpire.github.io/)**
+**[https://SophistEmpire.github.io/](https://SophistEmpire.github.io/Home)**
 
 ## About Sophist Empire
 
